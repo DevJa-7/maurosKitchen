@@ -1,0 +1,190 @@
+/*============================================
+
+CSS Base by SONHLAB.com - version 1.0
+Website: http://sonhlab.com
+
+============================================*/
+
+
+
+
+/*========== START SHADOW LIST ==========*/
+.shadow-white,
+.shadow-black,
+.shadow-blue,
+.shadow-green,
+.shadow-red,
+.shadow-orange {
+	text-decoration:none;
+}
+.shadow-white {
+	box-shadow:0px 0px 6px 3px #fff;
+	-webkit-box-shadow:0px 0px 6px 3px #fff;
+	-moz-box-shadow:0px 0px 6px 3px #fff;
+	-o-box-shadow:0px 0px 6px 3px #fff;
+	-ms-box-shadow:0px 0px 6px 3px #fff;
+}
+.shadow-blue {
+	box-shadow:0px 0px 6px 3px #38D1F7;
+	-webkit-box-shadow:0px 0px 6px 3px #38D1F7;
+	-moz-box-shadow:0px 0px 6px 3px #38D1F7;
+	-o-box-shadow:0px 0px 6px 3px #38D1F7;
+	-ms-box-shadow:0px 0px 6px 3px #38D1F7;
+}
+.shadow-green {
+	box-shadow:0px 0px 6px 3px #AACA37;
+	-webkit-box-shadow:0px 0px 6px 3px #AACA37;
+	-moz-box-shadow:0px 0px 6px 3px #AACA37;
+	-o-box-shadow:0px 0px 6px 3px #AACA37;
+	-ms-box-shadow:0px 0px 6px 3px #AACA37;
+}
+.shadow-red {
+	box-shadow:0px 0px 6px 3px #E81750;
+	-webkit-box-shadow:0px 0px 6px 3px #E81750;
+	-moz-box-shadow:0px 0px 6px 3px #E81750;
+	-o-box-shadow:0px 0px 6px 3px #E81750;
+	-ms-box-shadow:0px 0px 6px 3px #E81750;
+}
+.shadow-black {
+	box-shadow:0px 0px 6px 3px #444;
+	-webkit-box-shadow:0px 0px 6px 3px #444;
+	-moz-box-shadow:0px 0px 6px 3px #444;
+	-o-box-shadow:0px 0px 6px 3px #444;
+	-ms-box-shadow:0px 0px 6px 3px #444;
+}
+.shadow-orange {
+	box-shadow:0px 0px 6px 3px #FF6600;
+	-webkit-box-shadow:0px 0px 6px 3px #FF6600;
+	-moz-box-shadow:0px 0px 6px 3px #FF6600;
+	-o-box-shadow:0px 0px 6px 3px #FF6600;
+	-ms-box-shadow:0px 0px 6px 3px #FF6600;
+}
+
+/*========== END SHADOW LIST ==========*/
+
+
+/*========== START HOVER SHADOW LIST ==========*/
+
+.hovershadow-white, .hovershadow-black, .hovershadow-blue, .hovershadow-green, .hovershadow-red, .hovershadow-orange {
+	text-decoration:none;
+}
+.hovershadow-white:hover {
+	box-shadow:0px 0px 6px 3px #fff;
+	-webkit-box-shadow:0px 0px 6px 3px #fff;
+	-moz-box-shadow:0px 0px 6px 3px #fff;
+	-o-box-shadow:0px 0px 6px 3px #fff;
+	-ms-box-shadow:0px 0px 6px 3px #fff;
+}
+.hovershadow-blue:hover {
+	box-shadow:0px 0px 6px 3px #38D1F7;
+	-webkit-box-shadow:0px 0px 6px 3px #38D1F7;
+	-moz-box-shadow:0px 0px 6px 3px #38D1F7;
+	-o-box-shadow:0px 0px 6px 3px #38D1F7;
+	-ms-box-shadow:0px 0px 6px 3px #38D1F7;
+}
+.hovershadow-green:hover {
+	box-shadow:0px 0px 6px 3px #AACA37;
+	-webkit-box-shadow:0px 0px 6px 3px #AACA37;
+	-moz-box-shadow:0px 0px 6px 3px #AACA37;
+	-o-box-shadow:0px 0px 6px 3px #AACA37;
+	-ms-box-shadow:0px 0px 6px 3px #AACA37;
+}
+.hovershadow-red:hover {
+	box-shadow:0px 0px 6px 3px #E81750;
+	-webkit-box-shadow:0px 0px 6px 3px #E81750;
+	-moz-box-shadow:0px 0px 6px 3px #E81750;
+	-o-box-shadow:0px 0px 6px 3px #E81750;
+	-ms-box-shadow:0px 0px 6px 3px #E81750;
+}
+.hovershadow-black:hover {
+	box-shadow:0px 0px 6px 3px #444;
+	-webkit-box-shadow:0px 0px 6px 3px #444;
+	-moz-box-shadow:0px 0px 6px 3px #444;
+	-o-box-shadow:0px 0px 6px 3px #444;
+	-ms-box-shadow:0px 0px 6px 3px #444;
+}
+.hovershadow-orange:hover {
+	box-shadow:0px 0px 6px 3px #FF6600;
+	-webkit-box-shadow:0px 0px 6px 3px #FF6600;
+	-moz-box-shadow:0px 0px 6px 3px #FF6600;
+	-o-box-shadow:0px 0px 6px 3px #FF6600;
+	-ms-box-shadow:0px 0px 6px 3px #FF6600;
+}
+
+/*========== END HOVER SHADOW LIST ==========*/
+
+
+
+/*========== START BACKGROUND LIST ==========*/
+
+/* Solid Colors */
+.solid-lightblue { background:#E4F0F7; }
+.solid-blue { background:#00BBE2; }
+.solid-blue-2 { background:#2C84EE; }
+.solid-darkblue { background:#044E94; }
+.solid-violetred { background:#781766; }
+.solid-red { background:#E51400;}
+.solid-red-2 { background:#E81750; }
+.solid-pink { background:#FF539B; }
+.solid-purple { background:#D02090; }
+.solid-orange { background:#FB8F02; }
+.solid-orange-2 { background:#FF6600; }
+.solid-orange-3 { background:#DD5F37; }
+.solid-coral { background:#CD5B45; }
+.solid-lightgreen { background:#F5FFFA; }
+.solid-green { background:#67B239; }
+.solid-green-2 {background:#96BF01; }
+.solid-darkgreen { background:#016C38; }
+.solid-olive { background:#999900}
+.solid-grass { background:#CDCD00; }
+.solid-darkred { background:#5F0000; }
+.solid-gold { background:#FEE9AE; }
+.solid-yellow { background:#F7D100; }
+.solid-black { background:#000; }
+.solid-smoke { background:#F5F5F5; }
+.solid-white { background:#fff; }
+.solid-jade { background:#00CE9B; }
+/* End Solid Colors */
+
+/* Transparent Colors */
+.transparent-deepsea { background: rgba(0,53,100,0.2); }
+.transparent-smoke { background: rgba(245,245,245,0.2); }
+.transparent-grass { background: rgba(205,250,0,0.2); }
+.transparent-black { background: rgba(0,0,0,0.2); }
+.transparent-darknight { background: rgba(0,0,0,0.6); }
+.transparent-red { background: rgba(255,0,0,0.2); }
+.transparent-violetred { background: rgba(208,32,144,0.2); }
+.transparent-green { background: rgba(103,178,57,0.2); }
+.transparent-yellow { background: rgba(255,255,0,0.2); }
+.transparent-orange { background: rgba(251,143,2,0.2); }
+.transparent-coral { background: rgba(205,91,69,0.2); }
+.transparent-wheat { background: rgba(238,216,174,0.2); }
+.transparent-redwine { background: rgba(139,0,0,0.2); }
+.transparent-mist { background: rgba(255,255,255,0.6); }
+/* End Transparent Colors */
+
+/* Background Images */
+.img-wood { background:#FB8F02 url(../images/bg/wood_pattern.jpg) repeat; }
+.img-purtywood { background:#FB8F02 url(../images/bg/purty_wood.jpg) repeat; }
+.img-woodtexture { background:#FB8F02 url(../images/bg/wood_texture.jpg) repeat; }
+.img-darkwood { background:#000 url(../images/bg/dark_wood.jpg) repeat; }
+.img-retinawood { background:#FB8F02 url(../images/bg/retina_wood.png) repeat; }
+.img-nastyfabric { background:#999 url(../images/bg/nasty_fabric.png) repeat; }
+.img-wildoliva { background:#555 url(../images/bg/wild_oliva.png) repeat; }
+.img-darkbrick { background:#555 url(../images/bg/dark_brick_wall.png) repeat; }
+.img-navyblue { background:#555 url(../images/bg/navy_blue.png) repeat; }
+.img-brickwall { background:#ccc url(../images/bg/brickwall.png) repeat; }
+/* End Background Images */
+
+
+
+/* MISC */
+.clearspace { clear: both; }
+.floatleft { float:left !important; }
+.floatright { float:right !important; }
+.none { display:none !important; }
+.light-text { color:#fff; }
+.dark-text { color:#1e1e1e; }
+.semiblack-text { color: #333; }
+
+/*========== END BACKGROUND LIST ==========*/

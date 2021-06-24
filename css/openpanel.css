@@ -1,0 +1,275 @@
+/*
+===========================================================
+
+OpenPanel by SONHLAB.com - version 2.2
+website: http://sonhlab.com
+Documentation: http://docs.sonhlab.com/openpanel-responsive-panel-anywhere/
+
+============================================================
+*/
+
+
+/*========== START GLOBAL ==========*/
+.op-html {
+	overflow: visible !important;
+}
+#op-station {
+	display:none;
+	position:fixed;
+	top:0px;
+	z-index:9999;
+	height:auto;
+	width:100%;
+}
+.op-station-overflow {
+	overflow-y:auto !important;
+	overflow-x:hidden !important;
+}
+
+.op-tabstyle-top {
+	top:5px;
+	position:relative;
+	font-size:1em;
+	-moz-border-radius:0px 0px 5px 5px;
+	-webkit-border-radius:0px 0px 5px 5px;
+	border-radius:0px 0px 5px 5px;
+	display:inline-block;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	cursor:pointer;
+	margin-left:1em;
+	
+}
+.op-tabstyle-top:hover {
+	box-shadow:0px 0px 6px 3px #fff;
+	-webkit-box-shadow:0px 0px 6px 3px #fff;
+	-moz-box-shadow:0px 0px 6px 3px #fff;
+	-o-box-shadow:0px 0px 6px 3px #fff;
+	-ms-box-shadow:0px 0px 6px 3px #fff;
+}
+
+.op-blockholder {
+	width:304px;
+	margin:50px auto;
+	position:relative;
+}
+
+.op-block1 {
+	width:96px;
+	height:200px;
+	margin-bottom:8px;
+	line-height:200px;
+	text-align:center;
+}
+
+.op-block1 img, .op-block2 img {
+	vertical-align: middle;
+	margin:auto;
+	padding:0px;
+	position:relative;	
+}
+
+.op-block2 {
+	width:200px;
+	height:96px;
+	margin-bottom:8px;
+	line-height:96px;
+	text-align:center;
+}
+
+
+/* NavBar */
+.op-menus {
+	margin-bottom:20px;
+	padding:0;
+	list-style:none;
+	overflow:hidden;
+	position:relative;
+}
+.op-menu {
+	padding:0px;
+	margin:0px;
+	position:relative;
+	z-index:9998;
+	width:100%;
+}
+.op-menu a {
+	padding:10px 20px;	
+	display:block;
+	position:relative;
+	height:48px;
+	
+}
+.op-icons {
+	width:32px;
+	height:32px;
+	padding:8px;
+	display:block;
+	float:left;
+}
+.op-menu span {
+	display:block;
+	float:left;
+	width:132px;
+	margin-left:10px;
+	margin-right:10px;
+	font-size:14px;
+	line-height:24px;
+	font-family:'Dosis',sans-serif;
+	color:#fff;
+}
+.op-menu:hover {
+	background: rgba(0,0,0,0.2);/* Modern browser */
+}
+
+.op-menublock {
+	width:240px;
+	float:left;
+}
+/* End NavBar */
+
+
+/*========== END GLOBAL ==========*/
+
+
+
+
+/* OPENPANEL - REQUIRED */
+.op-panel {
+	position:absolute;
+	z-index:9999;
+	display:none;
+	width:100%;
+	height:auto;
+}
+
+.op-panelbg {
+	position:fixed;
+	width:100%;
+	min-height:100%;
+}
+
+.op-panelbt {
+	cursor:pointer;
+	display:inline-block;
+	height:48px;
+}
+.op-bt-nav {
+	float:left;
+	margin:10px;
+}
+
+
+.op-panelctrl {
+	width:auto;
+	margin:auto;
+	display:block;
+	position:fixed;
+	top:0px;
+	z-index:999999;
+	height:52px;
+}
+.op-panelctrl > .op-panelbt {
+	cursor:pointer;
+	height:32px;
+	padding:0;
+}
+
+.op-panelctrl > .op-panelbt > img {
+	height:32px;
+}
+
+.op-bt-close {
+	float:left;
+	margin:10px;
+	display:block;
+}
+
+.op-bt-closeall {
+	float:right;
+	margin:10px;
+	display:none;
+}
+
+.op-panelform {
+	margin:auto;
+	padding:20px;
+	position:relative;
+	top:52px;
+	z-index:999998;
+	height:auto;
+	/*overflow:auto;*/
+	background:inherit;
+}
+
+@media screen and (max-width:960px) {
+	.op-panelctrl {
+		width:100%;
+	}
+	.op-panelform {
+		width:100%;
+	}
+}
+
+.op-tab {
+	cursor:pointer;
+}
+/* END OPENPANEL */
+
+
+
+/* Loading Icon */
+#op-loadingholder {
+	width:48px;
+	height:48px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:9999999;
+	margin-top:-24px;
+	margin-left:-24px;
+	display:none;
+}
+
+#op-loadingicon {
+	background:url(../images/loading.gif) no-repeat;
+	width:48px;
+	height:48px;
+}
+/* End Loading Icon */
+
+
+
+
+
+
+/* MISC */
+.responsive-img {
+	width:100%;
+	margin:auto;
+	display:block;
+	position:relative;
+}
+.img-holder {
+	width:590px;
+	margin:10px auto;
+}
+
+@media screen and (min-width:591px) {
+	.img-holder {
+		width:590px;
+	}
+}
+
+@media screen and (max-width:590px) {
+	.img-holder {
+		width:100%;
+		
+	}
+}
+
+
+.thumb-holder { margin:20px;}
+.thumbnails { float:left; width:192px; height:144px; margin-bottom:10px; margin-right:10px; }
+.thumbnails img { max-width:192px;} 

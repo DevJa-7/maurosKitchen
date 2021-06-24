@@ -1,0 +1,234 @@
+/* Link Color */
+a,
+.uk-link {
+    color: #029daf;
+}
+a:hover,
+.uk-link:hover {
+    color: #02aec2;
+}
+/* Font Color */
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span,
+.impx-header-social-list li a, .impx-top-header-contact li i,
+.impx-main-header .uk-navbar-nav > li.uk-active > a,
+#impx-header.uk-active .impx-main-header .uk-navbar-nav > li.uk-active > a,
+.impx-main-header .uk-navbar-nav > li:hover > a,
+.impx-main-header .uk-navbar-nav > li > a:focus,
+.impx-main-header .uk-navbar-nav > li.uk-open > a,
+#impx-header.uk-active .impx-main-header .uk-navbar-nav > li:hover > a,
+#impx-header.uk-active .impx-main-header .uk-navbar-nav > li > a:focus,
+#impx-header.uk-active .impx-main-header .uk-navbar-nav > li.uk-open > a,
+.impx-main-header .uk-nav-navbar > li > a:hover,
+.impx-main-header .uk-nav-navbar > li > a:focus,
+#impx-header.uk-active .impx-main-header .uk-nav-navbar > li > a:hover,
+#impx-header.uk-active .impx-main-header .uk-nav-navbar > li > a:focus,
+.impx-slideshow-box .impx-slideshow-caption .uk-button.outline i,
+.impx-intro h1 span, .impx-intro p span, .impx-intro-list-wrapper .uk-panel-title,
+.impx-menu-desc2 .impx-separator i, .impx-services-boxes .uk-panel-box i,
+.impx-service-item-content h5,.impx-menu-page-price h5,
+.impx-service-item.no-border .impx-service-item-content h5, 
+.impx-menu-page-group .impx-menu-page-content .impx-menu-page-price h5,
+.impx-author-box h5, .impx-related-post h6.related-post-title a, .impx-comment-box h4,
+.impx-comment-form h4, .impx-comment-form h4,.impx-comment-form h4,
+.impx-sidebar-box a:hover, .impx-popular-news li .impx-post-meta li a,.impx-box-date .impx-day,
+.impx-event-place, .impx-event-place i,.impx-event-detail span, span.impx-product-cat, 
+table.impx-calendar td a , .impx-upcoming-event li p, .impx-product-detail .impx-product-price span,
+.impx-opening-hours li span {
+    color: #029daf;
+}
+.impx-main-header .uk-navbar-nav > li.uk-active > a,
+#impx-header.uk-active .impx-main-header .uk-navbar-nav > li.uk-active > a,
+.impx-main-header .uk-navbar-nav > li:hover > a,
+.impx-main-header .uk-navbar-nav > li > a:focus,
+.impx-main-header .uk-navbar-nav > li.uk-open > a,
+#impx-header.uk-active .impx-main-header .uk-navbar-nav > li:hover > a,
+#impx-header.uk-active .impx-main-header .uk-navbar-nav > li > a:focus,
+#impx-header.uk-active .impx-main-header .uk-navbar-nav > li.uk-open > a,
+.impx-main-header .uk-nav-navbar > li > a:hover,
+.impx-main-header .uk-nav-navbar > li > a:focus,
+#impx-header.uk-active .impx-main-header .uk-nav-navbar > li > a:hover,
+#impx-header.uk-active .impx-main-header .uk-nav-navbar > li > a:focus {
+    color: #029daf !important;
+}
+.impx-service-item-content h5 {
+    color: #029daf;
+    border-color: #8fd2d9;
+}
+.impx-service-item-caption i,
+.impx-menu-desc2 .impx-separator i {
+    color: #029daf !important;
+}
+.impx-service-item.no-border .impx-service-item-caption i {
+    color: #029daf !important;
+    border-color: #9ed7b1;
+}
+.impx-service-item-content .impx-separator i {
+    color: #029daf !important;
+}
+
+/* Background Color */
+.impx-testimonial-list .impx-testi-image img, .impx-cta, .uk-tab > li.uk-active > a, 
+.uk-tab.uk-tab-bottom > li.uk-active > a, .uk-tab.uk-tab-left > li.uk-active > a, .uk-tab.uk-tab-right > li.uk-active > a,
+.uk-datepicker-table a.uk-active, .impx-top-header-contact li span.impx-cart, .impx-menu-desc2 .impx-menu-meta,
+.impx-reservation-form-hp .uk-button:hover,.impx-event-date,.impx-event-desc .uk-button,.impx-event-desc .uk-button:hover,
+.impx-menu-page-img-shadow , .impx-menu-page-content h4 span.menu-new,.impx-menu-page-featured-badge , .impx-menu-page.menu-list-rounded .impx-menu-page-featured-badge,
+.impx-company-name p, .impx-comment-form h4:before, .impx-comment-form h4:before , .impx-comment-form h4:before, .impx-comment-form .impx-comment-submit,
+.impx-blog-pagination .uk-pagination > .uk-active > span, .impx-blog-pagination .uk-pagination > li > a:hover, .impx-blog-pagination .uk-pagination > li > span:hover,
+.impx-tags-widget li a:hover,.impx-box-date .impx-year , .impx-event-page-time .impx-event-day,
+.impx-event-box .uk-panel-box , table.impx-calendar td.impx-date-today, .impx-product-list .uk-pagination > .uk-active > span ,
+.impx-product-list .uk-pagination > li > a:hover, .impx-product-list .uk-pagination > li > span:hover,h6.uk-accordion-title.uk-active {
+    background-color: #029daf;
+}
+
+/* Border Color */
+.uk-tab, .uk-tab > li.uk-active > a, .uk-tab.uk-tab-bottom, .uk-tab.uk-tab-bottom > li.uk-active > a, .uk-tab.uk-tab-left > li.uk-active > a,
+.uk-tab.uk-tab-right > li.uk-active > a,.impx-slideshow-box .impx-slideshow-caption .uk-button.outline:after,
+.impx-slideshow-box .impx-slideshow-caption .uk-button.outline:before, .impx-feature-ribbon:before, .impx-feature-ribbon:after,
+.impx-reservation-form-hp:before, .impx-reservation-form-hp:before, .impx-box-counter li i, .impx-chef-list li:hover .impx-chef-img img, 
+.impx-menu-page.menu-list-rounded .impx-menu-page-img img, .impx-menu-page-price h5, .impx-menu-page-group img,
+.impx-menu-page-group .impx-menu-page-content .impx-menu-page-price h5,
+.impx-sidebar-box.blog-profile-widget, .impx-tags-widget li a:hover, .impx-event-place, 
+.impx-products.impx-product-list-style .impx-product-item span.impx-product-cat, .impx-product-detail .impx-product-cat,
+.impx-contact-hours:before, .impx-contact-hours:after  {
+    border-color:  #029daf;
+}
+.uk-tab.uk-tab-bottom > li > a {
+    border-top-color:  #029daf;
+}
+.uk-tab.uk-tab-left {
+    border-right-color: #029daf;
+}
+.uk-tab.uk-tab-right {
+    border-left-color:  #029daf;
+}
+.uk-tab-center {
+    border-bottom-color: #029daf;
+}
+
+.impx-slideshow-box {
+    background-color: rgba(2, 157, 175,.9) !important;
+}
+.impx-menu-page-group h3 {
+    border-bottom-color:  #8bcda1;
+    text-shadow: 1px 1px 0 #fff, 2px 2px 0 #029daf;
+}
+.impx-post-content blockquote {
+    background-image: 
+        linear-gradient(90deg, transparent 0, #029daf 0, #029daf 4px, transparent 4px),
+        linear-gradient(#eee 1px, transparent 1px);
+}
+
+.impx-product-detail .impx-product-price span {
+    border-top-color: #029daf;
+    border-bottom-color: #029daf;
+}
+
+.impx-feature-img-wrapper {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8fd2d9), to(#029daf)); 
+    /* Safari 5.1, Chrome 10+ */ 
+    background: -webkit-linear-gradient(top, #8fd2d9, #029daf); 
+    /* Firefox 3.6+ */ 
+    background: -moz-linear-gradient(top, #8fd2d9, #029daf); 
+    /* IE 10 */ 
+    background: -ms-linear-gradient(top, #8fd2d9, #029daf); 
+    /* Opera 11.10+ */ 
+    background: -o-linear-gradient(top, #8fd2d9, #029daf);
+}
+
+.impx-feature-ribbon {
+    background: #029daf;
+    background-image: radial-gradient(center bottom, ellipse cover, #8fd2d9, #029daf);
+    background-image: -o-radial-gradient(center bottom, ellipse cover, #8fd2d9, #029daf);
+    background-image: -ms-radial-gradient(center bottom, ellipse cover, #8fd2d9, #029daf);
+    background-image: -moz-radial-gradient(center bottom, ellipse cover, #8fd2d9, #029daf);
+    background-image: -webkit-radial-gradient(center bottom, ellipse cover, #8fd2d9 , #029daf);
+}
+.impx-feature-ribbon:before, .impx-feature-ribbon:after {
+   border: .8em solid #029daf;
+}
+.impx-feature-ribbon:before {
+   border-left-color: transparent;
+}
+.impx-feature-ribbon:after {
+   border-right-color: transparent;
+}
+.impx-feature-ribbon .impx-feature-ribbon-content:before, .impx-feature-ribbon .impx-feature-ribbon-content:after {
+   border-color: #029daf transparent transparent transparent;
+}
+
+/* Menu price badge */
+.impx-menu-price {
+    border-top: 26px solid #029daf; 
+    border-left: 26px solid transparent; 
+    border-right: 26px solid #029daf; 
+    border-bottom: 26px solid transparent; 
+}
+.impx-price-badge > i {
+    border: 16px solid #029daf;
+    border-bottom: 12px solid transparent;
+}
+.impx-menu-desc2 .impx-separator:before, .impx-menu-desc2 .impx-separator:after {
+    background-color: rgba(2, 157, 175, .3);
+}
+.impx-service-item-caption i, .impx-menu-desc2 .impx-separator i {
+    color: #029daf !important;
+}
+.impx-service-item-content .impx-separator:before, .impx-service-item-content .impx-separator:after {
+    background-color: rgba(2, 157, 175, .3);    
+}
+.impx-service-item-img img, .impx-service-item.active .impx-service-item-img img {
+    border-color: #8fd2d9;
+}
+.uk-button.default, 
+.uk-button.blue {
+    background-color: #029daf;
+    border: 1px solid rgba(255,255,255,.10);
+    color: #ffffff !important;
+}
+.uk-button.border.blue,
+.uk-button.border.default {
+    color: #029daf !important;
+    border: 1px solid #029daf;
+    background-color: transparent;
+}
+.uk-button.outline.green, .uk-button.outline.default {
+    background-color: #029daf;
+}
+.impx-service-item.no-border .impx-service-item-caption i {
+    border-color: #8fd2d9;
+}
+
+.impx-menu-content-outline {
+    box-shadow: 0 0 0 16px #fff inset,
+                0 0 0 17px rgba(2, 157, 175, .4) inset, 
+                0 0 0 18px #fff inset, 
+                0 0 0 19px rgba(2, 157, 175, .4) inset, 
+                0 0 0 20px #fff inset, 
+                0 0 0 21px rgba(2, 157, 175, .4) inset;
+}
+.impx-menu-cat-group-outline {
+    box-shadow: 0 0 0 16px #fff inset,
+                0 0 0 17px rgba(2, 157, 175, .4) inset, 
+                0 0 0 18px #fff inset, 
+                0 0 0 19px rgba(2, 157, 175, .4) inset, 
+                0 0 0 20px #fff inset, 
+                0 0 0 21px rgba(2, 157, 175, .4) inset;    
+}
+.impx-menu-page-group h3 {
+    text-shadow: 1px 1px 0 #fff, 2px 2px 0 #8fd2d9;
+    border-bottom-color: #8fd2d9;
+}
+.impx-menu-content-footer h5 {
+    color: #029daf;
+    border-color: rgba(2, 157, 175, .6);
+}
+
+.impx-chef-list li:hover .impx-chef-item, .impx-chef-img img, .impx-chef-social li i, .impx-chef-list li:hover .impx-chef-social {
+    border-color: #8fd2d9;
+}
+.impx-chef-img img {
+    border-color: #8fd2d9;    
+}
+.impx-testimonial-list .impx-testi-image img {
+    background-color: #8fd2d9;
+}

@@ -1,0 +1,262 @@
+/* START GLOBAL */
+html,body,div,span,applet,object,iframe,input,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
+	margin:0;
+	padding:0;
+	border: 0px;
+}
+
+body {
+	font-family:'Open Sans', sans-serif;
+	color:#1e1e1e;
+	font-size:14px;
+	line-height:1.5;
+	overflow-x:hidden;
+	/*overflow:hidden;*/
+}
+a {
+	text-decoration:none;
+	color:inherit;	
+}
+
+#mainform {
+	width:960px;
+	margin:0 auto;
+	display:block;
+	/*overlfow:auto
+	overflow:hidden;*/
+}
+
+.headline {
+	position:absolute;
+	height:5px;
+	width:100%;
+	z-index:1;
+	left:0;
+	top:0px;
+}
+
+.description {
+	margin:50px 10px;
+	font-size:16px;
+}
+
+h1 {
+	font-size:60px;
+	padding:0px;
+	margin:50px 10px;
+	line-height:1;
+	font-family:"Dosis",sans-serif;
+	font-weight:normal;
+	text-transform:uppercase;
+	
+}
+h1 a {
+	color:#1e1e1e;
+}
+h3 {
+	font-size:30px;
+	line-height:1;
+	padding:0px;
+	margin:10px;
+	font-family:"Dosis",sans-serif;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+h4 {
+	font-size:24px;
+	line-height:1;
+	padding:0px;
+	margin:10px;
+	font-family:"Dosis",sans-serif;
+	font-weight:normal;
+	text-transform:uppercase;
+}
+p {
+	padding: 10px;
+	line-height:1.5;
+}
+
+
+
+
+
+
+
+
+.readmore a {
+	display:block;
+	font-size:20px;
+	height:48px;
+	margin:20px 0 0 20px;
+	font-family:"Dosis",sans-serif;
+}
+
+
+.demo-holder {
+	margin:50px 0;
+}
+
+.demoitem {
+	padding: 0 14px;
+	line-height:48px;
+	font-size:20px;
+	/*margin-right:5px;*/
+	display:block;
+}
+.demoitem > span ~ span {
+	padding-left:5px;
+}
+.demozone {
+	width:960px;
+	margin:50px auto;
+	font-family:'Open Sans', sans-serif;
+	font-size:20px;
+	/*border-bottom:1px solid #111;*/
+}
+.demohover:hover {
+	background:#E4F0F7;
+}
+
+#loadingholder {
+	display:none;
+}
+
+
+
+
+/* START FOOTER */
+.footer {
+	margin:100px 0px 20px 0;
+}
+
+.docs {
+	cursor:pointer;
+	height:90px;
+	float:left;
+	margin-bottom:20px;
+}
+.docs > a {
+	display:block;
+	height:90px;
+	line-height:90px;
+}
+.docs > a > img {
+	display:inline-block;
+	vertical-align: middle;
+	width:48px;
+	height:48px;
+	line-height:1;
+	margin:0 10px;
+}
+.docs > a > span {
+	display:inline-block;
+	margin-right:10px;
+}
+
+.copyright {
+	cursor:pointer;
+	float:right;
+	display:block;
+	height:90px;
+	width:370px;
+	
+}
+.copyright > a {
+	height:90px;
+	line-height:90px;
+	display:block;
+}
+.copyright > a > img {
+	width:90px;
+	height:90px;
+	margin:0 10px;
+	display:block;
+	float:left;
+}
+.copyright > a > span {
+	display:block;
+	line-height:1;
+	font-size:20px;
+	float:left;
+}
+.copyright > a > .brand {
+	font-size:40px;
+	font-family: 'Orbitron', sans-serif;
+	font-weight:bold;
+	color:#627B95;
+	line-height:1.5;
+	margin-right:10px;
+	
+}
+/* END FOOTER */
+
+
+
+@media screen and (max-width:959px) {
+	#mainform {
+		width:100%;
+	}
+	h1 {
+		font-size:40px;
+	}
+	h1, .demozone {
+		width:auto;
+	}
+	h1 > img {
+		width:48px;
+		height:48px;
+	}
+	
+	h3 {
+		font-size:24px;
+	}
+	h4 {
+		font-size:18px;
+	}
+	
+	p > a > img {
+		width:90%;
+	}
+	
+	.docs {
+		margin-left: 20px;
+		float:none !important;
+		display:inline-block;
+	}
+	.copyright {
+		float:none !important;
+		display:block;
+		height:auto;
+		width:auto;
+		line-height:1;
+	}
+	
+	.copyright > a {
+		height:auto;
+		line-height:1;
+		float:none !important;
+	}
+	.copyright > a > img {
+		margin:0 10px;
+		float:none !important;
+	}
+	.copyright > a > span {
+		display:block;
+		font-size:20px;
+		margin:0 10px;
+		float:none !important;
+	}
+	.copyright > a > .brand {
+		font-size:30px;
+		margin-right:0;
+		margin:0 10px;
+		
+	}
+
+}
+
+.contentblock {
+	width:300px;
+	margin:10px 0 0 10px;
+}
+/* END GLOBAL */

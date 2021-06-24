@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://mauroskitchen.com/</loc>
+  <lastmod>2020-02-26T01:36:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://mauroskitchen.com/index.html</loc>
+  <lastmod>2020-02-26T01:36:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mauroskitchen.com/reservation.html</loc>
+  <lastmod>2020-02-14T08:02:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mauroskitchen.com/about.html</loc>
+  <lastmod>2020-02-14T08:01:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mauroskitchen.com/catering.html</loc>
+  <lastmod>2020-02-14T08:02:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mauroskitchen.com/contact.html</loc>
+  <lastmod>2020-02-14T08:02:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mauroskitchen.com/our-partners.html</loc>
+  <lastmod>2020-02-26T01:36:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mauroskitchen.com/policy.html</loc>
+  <lastmod>2020-02-14T08:02:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

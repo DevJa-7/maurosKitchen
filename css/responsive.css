@@ -1,0 +1,1020 @@
+/* ------------------------------------------------------------------
+ * Template     : WarungPring
+ * File         : responsive.css
+ * Version      : 1.0
+ * Author       : IMediapixel
+ * Author URI   : http://themeforest.net/user/imediapixel
+ *
+ * IMediapixel Copyright 2016 All Rights Reserved.
+ * ------------------------------------------------------------------ */ 
+
+/* ------------------------------------------------------------------
+   
+   [Table of contents]
+   1. tablet landscape
+   2. tablet portrait
+   3. mobile landscape
+   4. mobile portrait
+
+------------------------------------------------------------------ */
+/* [ 1. tablet landscape ] */
+
+@media only screen and (max-width:1024px) {
+    .impx-logo {
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 6px;
+    }
+    #impx-header.uk-active .impx-logo {
+        top: 0px;
+    }
+    .impx-main-header {
+    }
+    .impx-main-header .impx-header-nav-left .uk-navbar-nav a, 
+    .impx-main-header .impx-header-nav-right .uk-navbar-nav a {
+        padding: 0 10px;
+        letter-spacing: .3px;
+    }
+    .impx-main-header .impx-header-nav-left {
+        margin-right: -38px;
+        /* margin-left: 0;
+        float: left; */
+    }
+    .impx-main-header .impx-header-nav-right {
+        margin-left: -38px;
+    }
+    .impx-main-header .uk-navbar-nav-subtitle > div {
+        font-size: 12px;
+    }
+
+    .impx-slideshow {
+        margin-top: -166px;
+    }
+
+    .impx-main-header .impx-header-nav-left .uk-navbar-nav a, 
+    .impx-main-header .impx-header-nav-right .uk-navbar-nav a {
+        padding: 0 6px;
+        font-size: 14px;
+    }
+
+    .impx-menu-carousel .uk-slidenav-position .uk-slidenav-next,
+    .impx-menu-carousel2 .uk-slidenav-position .uk-slidenav-next {
+        right: 0px;
+    }
+    .impx-menu-carousel .uk-slidenav-position .uk-slidenav-previous,
+    .impx-menu-carousel2 .uk-slidenav-position .uk-slidenav-previous {
+        left: 0px;
+    }
+
+    .impx-testimonial-carousel .uk-slidenav-position .uk-slidenav-next {
+        right: 0;
+    }
+    .impx-testimonial-carousel .uk-slidenav-position .uk-slidenav-previous {
+        left: 0;
+    }
+
+    .impx-menu-content-wrapper {
+        height: 343px;
+    }
+    .impx-menu-content {
+        padding: 40px 30px 0 30px;
+    }
+    .impx-menu-content p {
+        display: none;
+    }
+    .impx-menu-content h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .impx-info-wrapper {
+        margin-bottom: 60px !important;
+    }
+
+    .impx-page-heading {
+        height: 240px;
+    }
+    .impx-page-caption {
+        margin-top: 145px;
+    }
+    .impx-page-heading h1 {
+        font-size: 48px;
+    }
+
+    .impx-chef-list li {
+        margin-bottom: 30px;
+    }
+
+    .impx-intro-list li:last-child {
+        margin-bottom: 40px !important;
+    }
+
+    .impx-contact-hours {
+        padding: 20px 25px 10px 25px;
+    }
+    .impx-contact-hours:before,
+    .impx-contact-hours:after {
+        border: 3px solid #3fa962;
+        top: 8px;
+        bottom: 8px;
+        left: 08px;
+        right: 8px;
+        display: block;
+    }
+
+    .impx-page-heading {
+        margin-bottom: 20px;
+    }
+    .impx-info-wrapper .impx-img-info {
+    }
+    .impx-product-item .uk-button {
+        margin-bottom: -4px !important;
+    }
+
+    .impx-info-text-intro {
+        margin-bottom: 40px !important;
+    }
+    .impx-box-counter li {
+        max-width: 65%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .impx-box-counter li:last-child {
+        margin-bottom: 0;
+    }
+}
+/* [ 2. tablet potrait ] */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .uk-visible-medium {
+        display: inline-block !important;
+      }
+    .uk-navbar-toggle {
+        float: right;
+        margin-right: 0px;
+    }
+    .impx-main-header {
+        height: 94px;
+    }
+    #impx-header.uk-active .impx-main-header {
+        height: 84px;
+    }
+    .impx-logo {
+        margin: 0 auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -4px;
+    }
+    #impx-header.uk-active .impx-logo {
+        top: 0px;
+    }
+
+    .impx-main-header .impx-header-nav-left {
+        margin-left: -10px;
+        text-align: left;
+    }
+    #impx-header.uk-active .impx-main-header .uk-navbar-nav > li {
+        padding-top: 34px;
+    }
+    .impx-main-header .impx-header-nav-left .uk-navbar-nav a, 
+    .impx-main-header .impx-header-nav-right .uk-navbar-nav a,
+    #impx-header.uk-active .impx-main-header .impx-header-nav-left .uk-navbar-nav a, 
+    #impx-header.uk-active .impx-main-header .impx-header-nav-right .uk-navbar-nav a {
+        padding: 0 9px 0 0;
+    }
+    .uk-navbar-nav-subtitle div {
+        display: none;
+    }
+    .impx-main-header .uk-dropdown-navbar {
+        margin-top: -15px;
+    }
+    #impx-header.uk-active .impx-main-header .uk-dropdown-navbar {
+        margin-top: -10px;
+    }
+
+    .impx-slideshow {
+        margin-top: -166px;
+    }
+    .impx-slideshow-img {
+        margin-top: 160px;
+    }
+    .impx-slideshow  .uk-flex-bottom {
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .impx-feature-section li {
+        margin-bottom: 40px;
+    }
+    .impx-feature-section li:last-child {
+        margin-bottom: 0;
+    }
+    .impx-feature-content p {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .impx-menu-carousel .uk-slidenav-position .uk-slidenav-next,
+    .impx-menu-carousel2 .uk-slidenav-position .uk-slidenav-next {
+        right: 0px;
+    }
+    .impx-menu-carousel .uk-slidenav-position .uk-slidenav-previous,
+    .impx-menu-carousel2 .uk-slidenav-position .uk-slidenav-previous {
+        left: 0px;
+    }
+
+    .impx-testimonial-carousel .uk-slidenav-position .uk-slidenav-next {
+        right: 0;
+    }
+    .impx-testimonial-carousel .uk-slidenav-position .uk-slidenav-previous {
+        left: 0;
+    }
+
+    .impx-services-boxes.services-intro li {
+        max-width: 70%;
+        margin: 0 auto 30px auto;
+        text-align: center;
+    }
+    .impx-services-boxes.services-intro li:last-child {
+        margin-bottom: 0;
+    }
+    .impx-service-item.no-border:after  {
+        display: none;
+    }
+    .impx-service-item.no-border .impx-service-item-caption {
+    }
+
+    .impx-info-wrapper {
+        margin-bottom: 60px !important;
+    }
+    .impx-info-wrapper .impx-img-info {
+    }
+
+    .impx-menu-content-wrapper {
+        height: 100%;
+    }
+    .impx-menu-content {
+        padding: 40px 20px;
+    }
+    .impx-menu-content-outline {
+        left: -20px;
+        right: -15px;
+        height: 100%;
+    }
+    .impx-event-content {
+        margin: 0 20px;
+    }
+    .impx-event-desc .impx-separator {
+        margin-bottom: 10px;
+    }
+    .impx-menu-content .impx-separator {
+        margin-bottom: 20px;
+    }
+    .impx-event-date {
+        margin-top: 40px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .impx-event-content p {
+        display: none;
+    }
+    .impx-event-desc {
+        padding: 25px 20px;
+        height: 87%;
+    }
+    .impx-event-clock {
+    }
+    .impx-event-clock div {
+        margin-right: 5px;
+    }
+    .impx-event-content .uk-button {
+        display: none;
+    }
+
+    .impx-reservation-form-hp {
+        margin-bottom: 40px !important;
+    }
+    .impx-reservation-form-hp input,
+    .impx-reservation-form-hp select {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .impx-page-heading {
+        height: 200px;
+    }
+    .impx-page-heading img {
+        width: 768px;
+        height: 220px;
+    }
+    .impx-page-heading h1 {
+        font-size: 42px;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+    .impx-page-heading p {
+        margin-top: -5px;
+    }
+    .impx-page-caption {
+        margin-top: 122px;
+    }
+
+    .impx-intro-list li:last-child {
+        margin-bottom: 40px !important;
+    }
+
+    .impx-reservation-page-form {
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .impx-contact-form .uk-form input,
+    .impx-contact-form .uk-form select {
+        max-width: 88%;
+    }
+
+    .impx-main-content {
+        margin-bottom: 60px;
+    }
+
+    .impx-info-wrapper-left {
+        text-align: left !important;
+        margin-top: 0px !important;
+        margin-top: -20px !important;
+        margin-bottom: 40px;
+    }
+
+    .impx-menu-page.menu-list-square li {
+        margin-bottom: 30px;
+    }
+    .impx-menu-page-content p {
+        margin-bottom: 0;
+    }
+    .impx-menu-page.menu-list .impx-menu-page-content p {
+        margin-bottom: 10px;
+    }
+    .impx-img-no-margin {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 40px !important;
+        float: none;
+    }
+
+    .impx-menu-page-img img {
+        max-width: 100px;
+    }
+    .impx-menu-page-img-shadow {
+        right: 53px;
+        max-width: 100px;
+    }
+    .impx-menu-page.menu-list-square .impx-menu-page-content,
+    .impx-menu-page.menu-list-rounded .impx-menu-page-content {
+        margin-left: -50px;
+    }
+}
+
+/* [ 3. mobile landscape ] */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .uk-visible-medium {
+        display: inline-block !important;
+      }
+    .uk-navbar-toggle {
+        float: right;
+        margin-right: 0px;
+    }
+    .impx-wrapper {
+        padding: 50px 0 60px;
+    }
+    .impx-header-social-list li {
+        width: 24px;
+    }
+    #impx-header.uk-active .impx-header-social-list  li {
+        width: 24px;
+    }
+    .impx-logo {
+        margin: 3px auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 2px;
+    }
+    .impx-slideshow-caption {
+        margin-top: 0px !important;
+    }
+    .impx-slideshow-caption h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        text-align: center !important;
+    }
+    .uk-overlay-panel .uk-margin-double-large-top {
+        margin-top: 0px !important;
+    }
+    .uk-slideshow .uk-margin-double-large-top h1 {
+        margin-top: -100px !important;
+    }
+    .impx-slideshow-box {
+        margin-top: 110px !important;
+    }
+    .impx-slideshow-box i {
+        display: none;
+    }
+    
+    .impx-slide-icon {
+        margin-right: 0px !important;
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .impx-feature-block {
+        margin-top: 0;
+    }
+    .impx-feature-content {
+        margin-bottom: 20px 0px 60px 0px !important;
+    }
+    .impx-feature-content p {
+        margin-bottom: 30px !important;
+    }
+
+    .impx-menu-carousel .uk-slidenav-position .uk-slidenav-next,
+    .impx-menu-carousel2 .uk-slidenav-position .uk-slidenav-next {
+        right: 0px;
+    }
+    .impx-menu-carousel .uk-slidenav-position .uk-slidenav-previous,
+    .impx-menu-carousel2 .uk-slidenav-position .uk-slidenav-previous {
+        left: 0px;
+    }
+
+    .impx-services-boxes {
+        box-shadow:  none;
+    }
+    .impx-services-boxes li {
+        margin-bottom: 10px;
+    }
+    .impx-services-boxes li:last-child {
+        margin-bottom: 0 !important;
+    }
+    .impx-service-item {
+        padding: 30px 20px 20px 20px;
+        margin: 0 auto 30px auto !important;
+        box-shadow:rgba(0, 0, 0, 0.2) 0 1px 10px, rgba(0, 0, 0, 0.2) 0 1px 8px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        width: 70%;
+    }
+    .impx-services-boxes li .impx-service-item.active {
+        padding: 30px 20px 20px 20px;
+        margin-left: 0%;
+        width: 70%;
+    }
+
+    .impx-service-item-img {
+        width: 100%;
+        height: 100%;
+    }
+    .impx-service-item.active .impx-service-item-img {
+        width: auto;
+        height: auto;
+    }
+    .impx-services-boxes li:last-child .impx-service-item-img {
+        margin-left: 0;
+    }
+    .impx-services-boxes li:first-child .impx-service-item-content {
+        margin-left: 0;
+    }
+    .impx-services-boxes li:last-child .impx-service-item-content {
+        margin-right: 0;
+    }
+    .impx-service-item.no-border:after {
+        display: none;
+    }
+    .impx-testimonial-carousel .uk-slidenav-position .uk-slidenav-next {
+        right: 0;
+    }
+    .impx-testimonial-carousel .uk-slidenav-position .uk-slidenav-previous {
+        left: 0;
+    }
+    .impx-padding-bottom {
+        padding-bottom: 20px !important;
+    }
+
+    .impx-reservation-form-hp {
+        margin-bottom: 40px !important;
+    }
+    .impx-reservation-form-hp input,
+    .impx-reservation-form-hp select {
+        width: 430px !important;
+    }
+
+    .impx-page-heading {
+        height: 120px;
+    }
+    .impx-page-heading img {
+        height: 138px;
+    }
+
+    .impx-event-desc h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .impx-event-desc-outline {
+        height: 87%;
+        width: 84%;
+        margin: -15px auto;
+    }
+    .impx-event-desc {
+        padding: 30px 5px 6px 5px;
+        width: 48%;
+        height: 85.3%;
+    }
+    .impx-event-clock div {
+        margin-right: 3px;
+    }
+    .impx-event-clock div span {
+        font-size: 13px;
+    }
+    .impx-event-desc .uk-button {
+        display: none;
+    }
+    .impx-event-content {
+        margin-top: 0;
+    }
+    .impx-event-date {
+        margin-bottom: 0;
+        padding: 2px 6px;
+        width: 92%;
+    }
+    .impx-event-desc p {
+        display: none;
+    }
+    .impx-event-desc .impx-separator {
+        margin-bottom: 0;
+    }
+
+    .impx-chef-stand,
+    .impx-img-no-margin {
+        margin-bottom: 30px !important;
+    }
+
+    .impx-info-wrapper-left {
+        text-align: left !important;
+        margin-top: 0px !important;
+        margin-bottom: 40px;
+    }
+
+    .impx-menu-content-wrapper {
+        height: 100%;
+    }
+
+    .impx-menu-content {
+        padding: 40px 40px 0 40px;
+    }
+
+    .impx-menu-content h3 {
+        font-size: 20px;
+    }
+    .impx-menu-content h5 {
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .impx-menu-content p {
+        margin-top: 0;
+    }
+    .impx-menu-content-outline {
+        height: 100%;
+    }
+
+    .impx-reservation-page-form input,
+    .impx-reservation-page-form select {
+        width: 440px !important;
+    }
+    .impx-reservation-page-form {
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 90%;
+    }
+
+    .impx-box-counter li {
+        margin-bottom: 30px;
+    }
+
+    .impx-main-content {
+        margin-bottom: 60px;
+    }
+
+    .impx-menu-page.menu-list-square li {
+        margin-bottom: 20px;
+    }
+    .impx-menu-page.menu-list-rounded li {
+        margin-bottom: 5px;
+    }
+    .impx-menu-page.menu-list-square .impx-menu-page-content {
+        padding-bottom: 5px;
+    }
+    .impx-menu-page-content h5, .impx-menu-page-content h4 {
+        margin-bottom: 0px;
+    }
+    .impx-menu-page-content p {
+        margin-top: 10px;
+    }
+    .impx-menu-page.menu-list-rounded .impx-menu-page-content p {
+        margin-bottom: 0;
+    }
+
+    .impx-product-title {
+        margin-top: 30px !important;
+    }
+    .impx-products.impx-product-list-style .impx-product-item {
+        padding-bottom: 10px;
+    }
+    .impx-products.impx-product-list-style li:last-child .impx-product-item {
+        margin-bottom: 0;
+    }
+    .impx-product-detail {
+        margin-top: 20px;
+    }
+    .impx-products {
+        margin-bottom: 0;
+    }
+
+    .impx-related-products ul li {
+        margin-bottom: 30px;
+    }
+    .impx-blog-list li {
+        position: relative;
+    }
+    .impx-post-thumbnail {
+        margin-bottom: 20px !important;
+    }
+
+     .impx-cta-title {
+        text-align: left !important;
+    }
+    .impx-footer-menu li {
+        display: block;
+    }
+    .impx-footer-contact {
+        padding-left: 0;
+        text-align: center;
+    }
+    .impx-footer-copyright {
+        text-align: center !important;
+    }
+
+    .impx-box-date.post-date{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .impx-comment-form span.uk-form-help-inline {
+        margin-left: 0px;
+    }
+    .impx-comment-form  .uk-form-icon > [class*="uk-icon-"] {
+      margin-top: -22px;
+    }
+}
+
+/* [ 4. mobile potrait ] */
+
+@media only screen and (max-width: 479px) {
+    .uk-visible-medium {
+        display: inline-block !important;
+      }
+    .uk-navbar-toggle {
+        float: right;
+        margin-right: 0px;
+    }
+    .impx-wrapper {
+        padding: 50px 0 60px;
+    }
+    .impx-header-social-list li {
+        width: 24px;
+    }
+    #impx-header.uk-active .impx-header-social-list  li {
+        width: 24px;
+    }
+    .impx-top-header-contact {
+        width: 40px;
+    }
+    .impx-top-header-contact li {
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+    .impx-top-header-contact li span.impx-cart {
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        margin: -20px 3px 0 2px;
+        font-size: 12px;
+    }
+    .impx-logo {
+        margin: 0px auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 4px;
+    }
+    .impx-slideshow-caption {
+        margin-top: 0px !important;
+    }
+    .impx-slideshow-caption h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        text-align: center !important;
+    }
+    .uk-slideshow .uk-margin-double-large-top h1 {
+        margin-top: -200px !important;
+    }
+    .impx-slideshow-box {
+        margin-top: 110px !important;
+    }
+    .impx-slideshow-box i {
+        display: none;
+    }
+    .impx-slide-icon {
+        margin-right: 0px !important;
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .impx-feature-block {
+        margin-top: 0;
+    }
+    .impx-feature-content {
+        margin-bottom: 20px 0px 60px 0px !important;
+    }
+    .impx-feature-content p {
+        margin-bottom: 30px !important;
+    }
+
+    .impx-menu-carousel .uk-slidenav-position .uk-slidenav-next,
+    .impx-menu-carousel2 .uk-slidenav-position .uk-slidenav-next {
+        right: 0px;
+    }
+    .impx-menu-carousel .uk-slidenav-position .uk-slidenav-previous,
+    .impx-menu-carousel2 .uk-slidenav-position .uk-slidenav-previous {
+        left: 0px;
+    }
+    .impx-menu-content-wrapper {
+        height: 100%;
+    }
+
+    .impx-menu-content {
+        padding: 30px 20px 0 20px;
+    }
+
+    .impx-menu-content h5 {
+        font-size: 11px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        line-height: 15px;
+    }
+    .impx-menu-content h3 {
+        font-size: 18px;
+        line-height: 14px;
+    }
+    .impx-menu-content p {
+        display: none;
+    }
+    .impx-menu-content-outline {
+        height: 100%;
+    }
+
+    .impx-services-boxes {
+        box-shadow:  none;
+        margin-bottom: -70px !important;
+    }
+    .impx-services-boxes li {
+        margin-bottom: 10px;
+    }
+    .impx-services-boxes li:last-child {
+        margin-bottom: 0px;
+    }
+    .impx-service-item {
+        padding: 30px 20px 20px 20px;
+        margin: 0 auto 30px auto !important;
+        box-shadow:rgba(0, 0, 0, 0.2) 0 1px 10px, rgba(0, 0, 0, 0.2) 0 1px 8px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        width: 86%;
+    }
+    .impx-services-boxes li .impx-service-item.active {
+        padding: 30px 20px 20px 20px;
+        margin-left: 0%;
+        width: 86%;
+    }
+    .impx-service-item-img {
+        width: 100%;
+        height: 100%;
+    }
+    .impx-service-item.active .impx-service-item-img {
+        width: auto;
+        height: auto;
+    }
+    .impx-services-boxes li:last-child .impx-service-item-img {
+        margin-left: 0;
+    }
+    .impx-services-boxes li:first-child .impx-service-item-content {
+        margin-left: 0;
+    }
+    .impx-services-boxes li:last-child .impx-service-item-content {
+        margin-right: 0;
+    }
+    .impx-service-item.no-border:after {
+        display: none;
+    }
+    .impx-service-item.no-border li:last-child {
+        margin-bottom: 80px !important;
+    }
+    .impx-services-boxes.services-intro li {
+        margin-bottom: 25px;
+    }
+
+    .impx-testimonial-carousel {
+        margin-bottom: -70px !important;
+    }
+    .impx-testimonial-carousel .uk-slidenav-position .uk-slidenav-next {
+        right: 0;
+    }
+    .impx-testimonial-carousel .uk-slidenav-position .uk-slidenav-previous {
+        left: 0;
+    }
+
+    .impx-event-wrapper {
+        padding: 0px;
+    }
+    .impx-event-desc-outline {
+        margin-top: -10px;
+    }
+    .impx-event-desc {
+        padding: 15px 10px 10px 10px;
+    }
+    .impx-event-content {
+        margin: 0;
+    }
+    .impx-event-content .impx-separator, 
+    .impx-event-content p,
+    .impx-event-content .uk-button, 
+    .impx-event-content .impx-event-clock{
+        display: none;
+    }
+    .impx-event-content h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .impx-reservation-form-hp {
+        margin-bottom: 40px !important;
+    }
+    .impx-reservation-form-hp input,
+    .impx-reservation-form-hp select {
+        width: 270px !important;
+    }
+
+    .impx-chef-stand,
+    .impx-img-no-margin {
+        margin-bottom: 30px !important;
+    }
+
+    .impx-info-wrapper-left {
+        text-align: left !important;
+        margin-top: 0px !important;
+        margin-bottom: 40px;
+    }
+
+    .impx-page-heading {
+        height: 120px;
+    }
+
+    .impx-page-heading img {
+        width: 320px;
+        height: 138px;
+    }
+    .impx-reservation-page-form {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .impx-reservation-page-form .impx-form input, .impx-reservation-page-form .impx-form select, 
+    .impx-reservation-page-form .impx-form .uk-button {
+        width: 280px;
+    }
+
+    .impx-box-counter li {
+        margin-bottom: 30px;
+    }
+
+    .impx-chef-list li {
+        margin-bottom: 0;
+    }
+
+    .impx-event-page-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .impx-menu-page.menu-list-square li {
+        margin-bottom: 20px;
+    }
+    .impx-menu-page.menu-list-rounded li {
+        margin-bottom: 5px;
+    }
+    .impx-menu-page.menu-list-square .impx-menu-page-content {
+        padding-bottom: 5px;
+    }
+    .impx-menu-page-content h5, .impx-menu-page-content h4 {
+        margin-bottom: 0px;
+    }
+    .impx-menu-page-content p {
+        margin-top: 10px;
+    }
+    .impx-menu-page.menu-list-rounded .impx-menu-page-content p {
+        margin-bottom: 0;
+    }
+    .impx-menu-page-content h4 span, .impx-menu-page-content h4 span.menu-new {
+        top: -30px;
+        right: -10px !important;
+        left: auto;
+    }
+    .impx-menu-page.menu-list li h4 span {
+        float: right;
+        top: -15px;
+        right: 0px !important;
+    }
+
+    .impx-contact-form .uk-form input,
+    .impx-contact-form .uk-form select {
+        max-width: 92%;
+    }
+
+    .impx-main-content {
+        margin-bottom: 60px;
+    }
+
+    .impx-product-title {
+        margin-top: 30px !important;
+    }
+    .impx-products.impx-product-list-style .impx-product-item span.impx-product-cat {
+        top: -30px;
+    }
+    .impx-products.impx-product-list-style .impx-product-item {
+        padding-bottom: 10px;
+    }
+    .impx-products.impx-product-list-style li:last-child .impx-product-item {
+        margin-bottom: 0;
+    }
+    .impx-product-detail {
+        margin-top: 20px;
+    }
+    .impx-products {
+        margin-bottom: 0;
+    }
+
+    .impx-related-products ul li {
+        margin-bottom: 30px;
+    }
+    .impx-blog-list li {
+        position: relative;
+    }
+    .impx-post-thumbnail {
+        margin-bottom: 20px !important;
+    }
+
+    .impx-cta-title {
+        text-align: left !important;
+    }
+    
+    .impx-footer-menu li {
+        display: block;
+    }
+
+    .impx-box-date.post-date{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .impx-related-post li {
+        margin-bottom: 30px;
+    }
+
+    .impx-comment-form input {
+        width: 100%;
+    }
+    .impx-comment-form span.uk-form-help-inline {
+        margin-left: 0px;
+    }
+    .impx-comment-form  .uk-form-icon > [class*="uk-icon-"] {
+      margin-top: -22px;
+    }
+}
